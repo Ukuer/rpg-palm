@@ -4,7 +4,7 @@ TOTAL_ID=40
 SAMPLES=10
 N_PROC=10
 DATASETS=./datasets/bezier
-NAME=palm_full_2
+NAME=palm_full
 
 OUTPUT=./bezier_rpg
 

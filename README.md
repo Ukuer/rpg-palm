@@ -59,6 +59,9 @@ If you find this useful for your research, please use the following.
 }
 ```
 
+If you have any questions or encounter any issues with the RPG-PALM code, please feel free to contact me (email: jianlong@mail.hfut.edu.cn). 
+I would be more than happy to assist you in any way I can.
+
 ### Acknowledgements
 
 This code borrows heavily from the [BicycleGAN](https://github.com/junyanz/BicycleGAN/tree/master) repository.
