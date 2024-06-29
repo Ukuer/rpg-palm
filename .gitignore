@@ -1,6 +1,5 @@
 .DS_Store
 *.fuse*
-*.pth
 *.pyc
 debug*
 datasets/
