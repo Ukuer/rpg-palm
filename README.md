@@ -25,7 +25,10 @@ cd rpg-palm
 ``` 
 - Install PyTorch and dependencies from http://pytorch.org
 - Install python libraries [visdom](https://github.com/facebookresearch/visdom), [dominate](https://github.com/Knio/dominate), and [moviepy](https://github.com/Zulko/moviepy).   
-
+- Noted that do not install vlkit from pypi, because it is not compatible with the current version. Please install vlkit as following:
+```bash
+pip install palm-recognition/vlkit-0.1.0b11.tar.gz 
+```
 
 ### Use a Pre-trained Model
 - Download [checkpoints](https://drive.google.com/file/d/1P-Z2lem3lRCu99oEReJhzYwBP6dzCuMn/view?usp=drive_link) and place it in `./checkpoints `.
