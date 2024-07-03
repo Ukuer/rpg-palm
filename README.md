@@ -25,7 +25,7 @@ cd rpg-palm
 ``` 
 - Install PyTorch and dependencies from http://pytorch.org
 - Install python libraries [visdom](https://github.com/facebookresearch/visdom), [dominate](https://github.com/Knio/dominate), and [moviepy](https://github.com/Zulko/moviepy).   
-- Noted that do not install vlkit from pypi, because it is not compatible with the current version. Please install vlkit as following:
+- **Noted that do not install vlkit from pypi**, because it is not compatible with the current version. Please install vlkit as following:
 ```bash
 pip install palm-recognition/vlkit-0.1.0b11.tar.gz 
 ```
@@ -33,19 +33,15 @@ pip install palm-recognition/vlkit-0.1.0b11.tar.gz
 ### Use a Pre-trained Model
 - Download [checkpoints](https://drive.google.com/file/d/1P-Z2lem3lRCu99oEReJhzYwBP6dzCuMn/view?usp=drive_link) and place it in `./checkpoints `.
 
-- Then，
-```bash
-bash ./run_rpg.sh
-```
-Noted that you should modify some contents in `./run_rpg.sh` to meet you requirements.
+- Then `bash ./run_rpg.sh`
+- Noted that you should modify some contents in `./run_rpg.sh` to meet you requirements.
 
 ### Model Training
 - To train a model,
 ```bash
 bash train.sh
 ```
-- To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097. To see more intermediate results, check out  `./checkpoints/edges2shoes_bicycle_gan/web/index.html`
-- See more training details for other datasets in `./scripts/train.sh`.
+- To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097. To see more intermediate results, check out  `./checkpoints/NAME/web/index.html
 
 
 ### Citation
