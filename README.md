@@ -41,7 +41,7 @@ pip install palm-recognition/vlkit-0.1.0b11.tar.gz
 ```bash
 bash train.sh
 ```
-- To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097. To see more intermediate results, check out  `./checkpoints/NAME/web/index.html
+- To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097. To see more intermediate results, check out  `./checkpoints/NAME/web/index.html`
 
 
 ### Citation
