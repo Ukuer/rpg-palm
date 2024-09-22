@@ -1,9 +1,8 @@
 # RPG-Palm
 `RPG-Palm Realistic Pseudo-data Generation for Palmprint Recognition` |  [Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Shen_RPG-Palm_Realistic_Pseudo-data_Generation_for_Palmprint_Recognition_ICCV_2023_paper.pdf) | [Arxiv](https://arxiv.org/abs/2307.14016)
 
-
 Pytorch implementation for RPG-Palm .
-
+Our improved work __PCE-Palm__ can be found in [link](https://github.com/Ukuer/PCE-Palm)
 
 ## Example results
 <img src='imgs/rpg-results.png' width=820>  
