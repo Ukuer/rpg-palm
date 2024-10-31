@@ -55,6 +55,16 @@ If you find this useful for your research, please use the following.
   pages={19605--19616},
   year={2023}
 }
+
+@inproceedings{jin2024pce,
+  title={PCE-Palm: Palm Crease Energy Based Two-Stage Realistic Pseudo-Palmprint Generation},
+  author={Jin, Jianlong and Shen, Lei and Zhang, Ruixin and Zhao, Chenglong and Jin, Ge and Zhang, Jingyun and Ding, Shouhong and Zhao, Yang and Jia, Wei},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={3},
+  pages={2616--2624},
+  year={2024}
+}
 ```
 
 If you have any questions or encounter any issues with the RPG-PALM code, please feel free to contact me (email: jianlong@mail.hfut.edu.cn). 
