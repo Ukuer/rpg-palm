@@ -4,6 +4,8 @@
 Pytorch implementation for RPG-Palm .
 Our improved work __PCE-Palm__ can be found in [link](https://github.com/Ukuer/PCE-Palm)
 
+We strongly encourage you to follow up on our recent work [**Diff-Palm (CVPR-25) **](https://github.com/Ukuer/Diff-Palm)
+
 ## Example results
 <img src='imgs/rpg-results.png' width=820>  
 
